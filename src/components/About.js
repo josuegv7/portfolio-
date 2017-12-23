@@ -57,13 +57,6 @@ export default class About extends Component {
                   technology-based solutions, to help solve your challenges.
                   I am extremely excited to build your own Web Application.
               </p>
-              <p> In my free time, I enjoy recreational sports such as soccer
-                  and tennis. He also likes to play his guitar to relax.
-                  Favorite publications are the New Yorker and Harvard
-                  Business Review and have a red-hot passion for Juventus
-                  Football Club, by far the greatest team the world has
-                  ever seen.
-              </p>
             </div>
           </div>
         </div>

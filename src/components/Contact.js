@@ -42,7 +42,7 @@ export default class Contact extends Component {
             <div className="col-lg-8 mx-auto text-center">
               <h2 className="section-heading">Lets Get In Touch!</h2>
               <hr className="my-4"/>
-              <p className="mb-5"> Want to get in touch with me, start your next project? Drop me a line anytime. I promise to reply A.S.A.P.!</p>
+              <p className="mb-5"> Want to get in touch with me, start your next project? Drop me a line anytime. I promise to reply A.S.A.P. !</p>
             </div>
           </div>
         </div>
