@@ -3,7 +3,7 @@ import "../App.css";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import ConnectFour from '../assets/images/ConnectFour.png'
 import HolidayTags from '../assets/images/Holidaytags.png'
-import JukeBox from '../assets/images/jukebox.png'
+import myMovies from '../assets/images/myMovies.png'
 
 export default class Project extends Component {
   render() {
