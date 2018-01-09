@@ -86,7 +86,7 @@ export default class Project extends Component {
                   <div className="portfolio-box-caption" style={portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
                     <div className="project-name" style={projectName}>
-                      myMoives
+                      myMovies
                     </div>
                       <div className="project-category text-faded" style={projectCategory}>
                         Reactjs, OAuth, Cloudinary

@@ -4,7 +4,7 @@ import "../App.css";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Document, Page } from 'react-pdf';
 import { Document1 } from 'react-pdf/build/entry.webpack';
-import Resume from '../assets/Boony_Guzman_resume1.pdf'
+import Resume from '../assets/Boony_Guzman_resume2.pdf'
 
 export default class Contact extends Component {
   state = {
@@ -40,7 +40,7 @@ export default class Contact extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-auto text-center">
-              <h2 className="section-heading">Lets Get In Touch!</h2>
+              <h2 className="section-heading">Let's Get In Touch!</h2>
               <hr className="my-4"/>
               <p className="mb-5"> Want to get in touch with me, start your next project? Drop me a line anytime.</p>
             </div>
