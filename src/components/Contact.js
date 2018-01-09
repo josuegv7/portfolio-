@@ -4,7 +4,7 @@ import "../App.css";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Document, Page } from 'react-pdf';
 import { Document1 } from 'react-pdf/build/entry.webpack';
-import Resume from '../assets/Boony_Guzman_resume.pdf'
+import Resume from '../assets/Boony_Guzman_resume1.pdf'
 
 export default class Contact extends Component {
   state = {
