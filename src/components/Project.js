@@ -81,15 +81,15 @@ export default class Project extends Component {
               </a>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <a className="portfolio-box" style={portfolioStyle} href="https://bgjukebox.herokuapp.com/">
-                <img className="img-fluid" src={JukeBox}/>
+              <a className="portfolio-box" style={portfolioStyle} href="https://mymoviesapp.herokuapp.com/">
+                <img className="img-fluid" src={myMovies}/>
                   <div className="portfolio-box-caption" style={portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
                     <div className="project-name" style={projectName}>
-                      JukeBox
+                      myMoives
                     </div>
                       <div className="project-category text-faded" style={projectCategory}>
-                        JavaScript, SoundClound API
+                        Reactjs, OAuth, Cloudinary
                       </div>
                     </div>
                   </div>
