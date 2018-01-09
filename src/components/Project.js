@@ -47,7 +47,6 @@ export default class Project extends Component {
     return (
       <section style={portfolioSection}>
       <h1 style={projectTitle}> Portfolio</h1>
-      <h3 style={projectTitle}>This is some of my work</h3>
         <div className="container-fluid p-0">
           <div className="row no-gutters popup-gallery">
             <div className="col-lg-4 col-sm-6">
