@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import "../App.css";
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import ConnectFour from '../assets/images/ConnectFour.png'
 import HolidayTags from '../assets/images/Holidaytags.png'
 import myMovies from '../assets/images/myMovies.png'
@@ -17,7 +16,6 @@ export default class Project extends Component {
       margin: '10% 3%',
     }
     const portfolioBoxCaption = {
-      // position: 'absolute',
       bottom: '0',
       display: 'block',
       width: '100%',
@@ -36,8 +34,8 @@ export default class Project extends Component {
         textAlign: 'center',
     }
     const projectimage = {
-      width: '65%',
-      height: '255px',
+      width: '100%',
+      height: '221px',
       margin: 'auto',
     }
     const projectTitle = {
@@ -51,7 +49,7 @@ export default class Project extends Component {
           <div className="row no-gutters popup-gallery">
             <div className="col-lg-4 col-sm-6">
               <a className="portfolio-box" style={portfolioStyle} href="https://bgconnectfour.herokuapp.com/">
-                <img className="img-fluid" src={ConnectFour} />
+                <img className="img-fluid" src={ConnectFour} alt='Project' style={projectimage}/>
                   <div className="portfolio-box-caption" style={portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content" style={projectCategory}>
                     <div className="project-name" style={projectName}>
@@ -66,7 +64,7 @@ export default class Project extends Component {
             </div>
             <div className="col-lg-4 col-sm-6">
               <a className="portfolio-box" style={portfolioStyle} href="https://holidaytagssmv.herokuapp.com/">
-                <img className="img-fluid" src={HolidayTags}/>
+                <img className="img-fluid" src={HolidayTags} alt='Project'/>
                   <div className="portfolio-box-caption" style={portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
                     <div className="project-name" style={projectName}>
@@ -81,7 +79,7 @@ export default class Project extends Component {
             </div>
             <div className="col-lg-4 col-sm-6">
               <a className="portfolio-box" style={portfolioStyle} href="https://mymoviesapp.herokuapp.com/">
-                <img className="img-fluid" src={myMovies}/>
+                <img className="img-fluid" src={myMovies} alt='Project' />
                   <div className="portfolio-box-caption" style={portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
                     <div className="project-name" style={projectName}>

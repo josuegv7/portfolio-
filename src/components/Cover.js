@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import "../App.css";
 import coverimage from '../assets/images/cover.jpg'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 
 
@@ -34,7 +33,7 @@ export default class Cover extends Component {
             </div>
             <div className="col-lg-8 mx-auto">
               <p className="text-faded mb-5" style={covertitle}>Full Stack Web Developer</p>
-              
+
             </div>
           </div>
         </div>

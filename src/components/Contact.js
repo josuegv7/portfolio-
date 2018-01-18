@@ -1,9 +1,6 @@
 import React, {Component} from "react";
-import FontAwesome from 'react-fontawesome';
-import "../App.css";
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Document, Page } from 'react-pdf';
-import { Document1 } from 'react-pdf/build/entry.webpack';
+import "../App.css"
+import { Document, Page } from 'react-pdf'
 import Resume from '../assets/Boony_Guzman_resume3.pdf'
 
 export default class Contact extends Component {
@@ -17,7 +14,7 @@ export default class Contact extends Component {
 
   render() {
 
-    const { pageNumber, numPages } = this.state;
+    const { pageNumber } = this.state;
     const pdfStyle = {
       marginLeft: '19%',
       marginTop: '3%',
@@ -65,8 +62,9 @@ export default class Contact extends Component {
         </div>
         <div className="row" style={pdfStyle}>
           <h1> Resume </h1>
-          <Document file={Resume} onLoadSuccess={this.onDocumentLoad}>
-            <Page pageNumber={pageNumber} />
+          <br></br>
+          <Document file={Resume} onLoadSuccess={this.onDocumentLoad} >
+            <Page pageNumber={pageNumber} scale= '0.7'/>
           </Document>
         </div>
       </section>
