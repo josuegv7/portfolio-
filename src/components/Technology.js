@@ -1,15 +1,9 @@
 import React, {Component} from "react";
-import "../App.css";
-
+import style from '../style/Technology.css';
 export default class Technology extends Component {
   render() {
-    const serviceStyle = {
-      marginTop: '80px',
-      padding: '6rem 0',
-      backgroundColor: "#DDD8B8"
-    }
     return (
-      <section id="services" style={serviceStyle}>
+      <section id="services" className={style.serviceStyle}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
@@ -24,14 +18,14 @@ export default class Technology extends Component {
               <div className="service-box mt-5 mx-auto">
                 <i className="fa fa-4x fa-desktop text-primary mb-3 sr-icons"></i>
                 <h3 className="mb-3">Front End </h3>
-                <p className="text-muted mb-0">HTML, CSS, JavaScript, ReactJS, SaSS, JQuery, Ajax, BootStrap</p>
+                <p className="text-muted mb-0">HTML, CSS, JavaScript, React/Redux, SaSS, JQuery, Ajax, BootStrap</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 text-center">
               <div className="service-box mt-5 mx-auto">
                 <i className="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
                 <h3 className="mb-3">Back End </h3>
-                <p className="text-muted mb-0">Ruby on Rails, Django/Python</p>
+                <p className="text-muted mb-0">Ruby on Rails, Django/Python, NodeJS</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 text-center">

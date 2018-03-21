@@ -4,17 +4,17 @@ import Technology from './components/Technology';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import About from './components/About';
-
+import NavBar from './components/Navbar';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Cover />
+        <NavBar/>
+        <About />
         <Technology />
         <Project />
-        <About />
         <Contact />
       </div>
     );

@@ -1,0 +1,16 @@
+.coverStyle {
+    paddingTop: '10rem';
+    paddingBottom: 'calc(10rem - 56px)';
+    backgroundImage: 'url('+coverimage+')';
+    backgroundPosition: 'center center';
+    WebkitBackgroundSize: 'cover';
+    OBackgroundSize: 'cover';
+    backgroundSize: 'cover';
+    opacity: '0.85';
+  }
+  
+  .covertitle ={
+    fontSize: '2rem';
+    color: 'black';
+    zIndex: '2';
+  }

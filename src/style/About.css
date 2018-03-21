@@ -1,0 +1,35 @@
+  /* About Section */
+.about {
+	padding: 120px 0;
+}
+.aboutcontainer{
+    margin: auto
+}
+.abouttext {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.about img {
+    border-radius: 50%;
+    width: 15%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+.about p {
+    margin-top: 5%;
+    margin-bottom: 6%;
+    line-height: 2rem;
+}
+
+.aboutButton {
+    text-transform: uppercase;
+    color: #555;
+    background-color: #855a4799;
+    border-color: #777;
+    padding: 14px 20px;
+    margin: 0;
+    font-size: 16px;
+    border-radius: 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+.portfolioSection {
+    margin-top: 10%
+  }
+ .portfolioStyle {
+    position: relative;
+    display: block;
+    max-width: ;: 650px;
+    margin: 10% 3%;
+  }
+  .portfolioBoxCaption  {
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .projectCategory  {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  }
+.projectName {
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      }
+.projectimage {
+    width: 100%;
+    height: 221px;
+    margin: auto;
+  }
+.projectTitle  {
+    text-align: center;
+    font-weight: 700;
+  }
