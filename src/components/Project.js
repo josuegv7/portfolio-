@@ -12,7 +12,7 @@ export default class Project extends Component {
         <div className="container-fluid p-0">
           <div className="row no-gutters popup-gallery">
             <div className="col-lg-4 col-sm-6">
-              <a className="portfolio-box" className={style.portfolioStyle} href="https://bgconnectfour.herokuapp.com/">
+              <a className="portfolio-box" className={style.portfolioStyle} href="https://bgconnectfour.herokuapp.com/" target="_blank">
                 <img className="img-fluid" src={ConnectFour} alt='Project' className={style.projectimage}/>
                   <div className="portfolio-box-caption" className={style.portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content" className={style.projectCategory}>
@@ -27,7 +27,7 @@ export default class Project extends Component {
               </a>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <a className="portfolio-box" className={style.portfolioStyle} href="https://holidaytagssmv.herokuapp.com/">
+              <a className="portfolio-box" className={style.portfolioStyle} href="https://holidaytagssmv.herokuapp.com/" target="_blank">
                 <img className="img-fluid" src={HolidayTags} alt='Project'/>
                   <div className="portfolio-box-caption" className={style.portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
@@ -42,7 +42,7 @@ export default class Project extends Component {
               </a>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <a className="portfolio-box" className={style.portfolioStyle} href="https://mymoviesapp.herokuapp.com/">
+              <a className="portfolio-box" className={style.portfolioStyle} href="https://mymoviesapp.herokuapp.com/" target="_blank">
                 <img className="img-fluid" src={myMovies} alt='Project' />
                   <div className="portfolio-box-caption" className={style.portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
