@@ -23,7 +23,6 @@ export default class About extends Component {
       margin: '5',
       float: 'right',
       width: '43%',
-      // textAlign: 'justify',
       fontWeight: '600',
       fontSize: 'unset',
     }

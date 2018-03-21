@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Cover from './components/Cover';
 import Technology from './components/Technology';
 import Project from './components/Project';

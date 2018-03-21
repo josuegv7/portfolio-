@@ -13,10 +13,6 @@ ReactDOM.render(
   <Router>
     <div>
       <Route path="/" component={App} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/header" component={Header} />
-      <Route path="/project" component={Project} />
     </div>
   </Router>,
   document.getElementById('root'));
