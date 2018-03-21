@@ -3,7 +3,7 @@ import style from '../style/Technology.css';
 export default class Technology extends Component {
   render() {
     return (
-      <section id="services" className={style.serviceStyle}>
+      <section id="tech" className={style.serviceStyle}>
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">

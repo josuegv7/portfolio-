@@ -7,8 +7,9 @@ import myMovies from '../assets/images/myMovies.png'
 export default class Project extends Component {
   render() {
     return (
-      <section className={style.portfolioSection}>
+      <section id="project" className={style.portfolioSection}>
       <h1 className={style.projectTitle}> Portfolio</h1>
+         <h6><a href="https://github.com/josuegv7" target="_blank" className={style.moregit}>More @ Github</a></h6>
         <div className="container-fluid p-0">
           <div className="row no-gutters popup-gallery">
             <div className="col-lg-4 col-sm-6">
