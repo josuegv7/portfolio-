@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import { Document, Page } from 'react-pdf';
 import style from '../style/Contact.css';
 import Resume from '../assets/Boony_J_Guzman.pdf'
 
