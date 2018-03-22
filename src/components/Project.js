@@ -3,6 +3,7 @@ import style from '../style/Project.css';
 import ConnectFour from '../assets/images/ConnectFour.png'
 import HolidayTags from '../assets/images/Holidaytags.png'
 import myMovies from '../assets/images/myMovies.png'
+import SCamp from '../assets/images/SCamp.png'
 
 export default class Project extends Component {
   render() {
@@ -13,15 +14,15 @@ export default class Project extends Component {
         <div className="container-fluid p-0">
           <div className="row no-gutters popup-gallery">
             <div className="col-lg-4 col-sm-6">
-              <a className="portfolio-box" className={style.portfolioStyle} href="https://bgconnectfour.herokuapp.com/" target="_blank">
-                <img className="img-fluid" src={ConnectFour} alt='Project' className={style.projectimage}/>
+              <a className="portfolio-box" className={style.portfolioStyle} href="https://strengthcamplandingpage.herokuapp.com/" target="_blank">
+                <img className="img-fluid" src={SCamp} alt='Project' className={style.projectimageSC}/>
                   <div className="portfolio-box-caption" className={style.portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content" className={style.projectCategory}>
                     <div className="project-name" className={style.projectName}>
-                      ConnectFour
+                      Strength Camp
                     </div>
                       <div className="project-category text-faded" className={style.projectCategory}>
-                        JavaScript(jQuery)
+                        JavaScript(ReactJS)
                       </div>
                     </div>
                   </div>
