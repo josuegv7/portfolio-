@@ -30,7 +30,7 @@ export default class Project extends Component {
             </div>
             <div className="col-lg-4 col-sm-6">
               <a className="portfolio-box" className={style.portfolioStyle} href="https://holidaytagssmv.herokuapp.com/" target="_blank">
-                <img className="img-fluid" src={HolidayTags} alt='Project'/>
+                <img className="img-fluid" src={HolidayTags} alt='Project' className={style.projectimageSC}/>
                   <div className="portfolio-box-caption" className={style.portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
                     <div className="project-name" className={style.projectName}>
@@ -45,7 +45,7 @@ export default class Project extends Component {
             </div>
             <div className="col-lg-4 col-sm-6">
               <a className="portfolio-box" className={style.portfolioStyle} href="https://mymoviesapp.herokuapp.com/" target="_blank">
-                <img className="img-fluid" src={myMovies} alt='Project' />
+                <img className="img-fluid" src={myMovies} alt='Project' className={style.projectimageSC} />
                   <div className="portfolio-box-caption" className={style.portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
                     <div className="project-name" className={style.projectName}>
