@@ -328,3 +328,10 @@
             }
 
     }
+    .navicon{
+        width: 80%;
+        /* display: block; */
+        margin-top: -6%;
+        margin-left: 2%;
+        padding: 5%;
+    }

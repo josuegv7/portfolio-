@@ -1,9 +1,19 @@
 import React, {Component} from "react";
 import style from '../style/Project.css';
-import ConnectFour from '../assets/images/ConnectFour.png'
-import HolidayTags from '../assets/images/Holidaytags.png'
-import myMovies from '../assets/images/myMovies.png'
-import SCamp from '../assets/images/SCamp.png'
+import ConnectFour from '../assets/images/ConnectFour.png';
+import HolidayTags from '../assets/images/Holidaytags.png';
+import myMovies from '../assets/images/myMovies.png';
+import SCamp from '../assets/images/SCamp.png';
+import stockpile from '../assets/images/stockpile.png'
+import node from '../assets/images/nodejs_1.png';
+import react from '../assets/images/react_1.png';
+import mongodb from '../assets/images/mongodb.png';
+import python from '../assets/images/Python.png';
+import django from '../assets/images/django.png';
+import postsql from '../assets/images/postsql.png';
+
+
+
 
 export default class Project extends Component {
   render() {
@@ -22,7 +32,7 @@ export default class Project extends Component {
                       Strength Camp
                     </div>
                       <div className="project-category text-faded" className={style.projectCategory}>
-                        JavaScript(ReactJS)
+                      <img className="img-fluid" src={react} alt='Project' className={style.projecticons} />
                       </div>
                     </div>
                   </div>
@@ -37,7 +47,8 @@ export default class Project extends Component {
                       HolidayTags
                     </div>
                       <div className="project-category text-faded" className={style.projectCategory}>
-                        Django(Python), BootStrap, Stripe API, Ajax
+                        <img className="img-fluid" src={django} alt='Project' className={style.projecticons} />
+                        <img className="img-fluid" src={postsql} alt='Project' className={style.projecticons} />
                       </div>
                     </div>
                   </div>
@@ -52,7 +63,25 @@ export default class Project extends Component {
                       myMovies
                     </div>
                       <div className="project-category text-faded" className={style.projectCategory}>
-                        Reactjs, OAuth, Cloudinary
+                      <img className="img-fluid" src={react} alt='Project' className={style.projecticons} />
+                      </div>
+                    </div>
+                  </div>
+              </a>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <a className="portfolio-box" className={style.portfolioStyle} href="https://stockpilebjg.herokuapp.com/" target="_blank">
+                <img className="img-fluid" src={stockpile} alt='Project' className={style.projectimageSC} />
+                  <div className="portfolio-box-caption" className={style.portfolioBoxCaption}>
+                    <div className="portfolio-box-caption-content">
+                    <div className="project-name" className={style.projectName}>
+                      Stockpile
+                    </div>
+                      <div className="project-category text-faded" className={style.projectCategory}>
+
+                        <img className="img-fluid" src={node} alt='Project' className={style.projecticons} />
+                        <img className="img-fluid" src={react} alt='Project' className={style.projecticons} />
+                        <img className="img-fluid" src={mongodb} alt='Project' className={style.projecticons} />
                       </div>
                     </div>
                   </div>

@@ -1,13 +1,13 @@
 import React, {Component} from 'react'; 
 import style from '../style/navbar.css';
-
+import navicon from '../assets/images/navicon.png';
 export default class NavBar extends Component {
     render() {
         return(
     
         <header className={style.header}>
             <div className={style.logo}>
-            <span><i className="fa fa-3x fa-coffee text-primary mb-3 sr-icons"></i></span>
+            <span><img className="img-fluid" src={navicon} alt='Project' className={style.navicon} /></span>
 
             </div>
             <div className={style.content}>
