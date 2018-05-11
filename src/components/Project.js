@@ -70,7 +70,12 @@ export default class Project extends Component {
               </a>
             </div>
             <div className="col-lg-4 col-sm-6">
-              <a className="portfolio-box" className={style.portfolioStyle} href="https://stockpilebjg.herokuapp.com/" target="_blank">
+              < a className = "portfolio-box"
+              className = {
+                style.portfolioStyle
+              }
+              href = "https://github.com/josuegv7/StockPile"
+              target = "_blank" >
                 <img className="img-fluid" src={stockpile} alt='Project' className={style.projectimageSC} />
                   <div className="portfolio-box-caption" className={style.portfolioBoxCaption}>
                     <div className="portfolio-box-caption-content">
