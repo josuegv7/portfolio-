@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import style from '../style/Contact.css';
-import Resume from '../assets/Boony_Josue_Guzman.pdf'
+import Resume from '../assets/Boony Josue Guzman.pdf'
 
 export default class Contact extends Component {
   render() {
